@@ -1,0 +1,27 @@
+{
+  "name": "examplejavascriptlibrary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index_bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaVitali/ExampleJavascriptLibrary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaVitali/ExampleJavascriptLibrary/issues"
+  },
+  "homepage": "https://github.com/AnnaVitali/ExampleJavascriptLibrary#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
